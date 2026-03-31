@@ -27,7 +27,7 @@ A clothing company's revenue dropped **89% in less than a year**. This project i
 ## 📊 Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](Dashboard Screenshots/page1_executive_summary.png)
+![Executive Summary](Dashboard Screenshots/Executive Summary.png)
 
 ### Sales Trends
 ![Sales Trends](Dashboard Screenshots/page2_sales_trends.png)
@@ -99,7 +99,7 @@ Fashion-Retail-Intelligence/
 │   └── fashion_retail_intelligence_dashboards.pbix
 │
 ├── Dashboard Screenshots/
-│   ├── page1_executive_summary.png
+│   ├── Executive Summary.png
 │   ├── page2_sales_trends.png
 │   ├── page3_customer_analysis.png
 │   └── page4_product_analysis.png
