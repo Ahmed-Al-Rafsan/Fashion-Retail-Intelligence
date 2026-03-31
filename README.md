@@ -1,64 +1,138 @@
-# Fashion-Retail-Intelligence
-Analysing why a clothing company's revenue dropped 89% — using Python, SQL, and Power BI to uncover customer retention failures and business insights
-# Hi, I'm Rafsan 
+# Fashion Retail Intelligence — Why Is This Business Failing?
 
-### Data Analyst | Python · SQL · Power BI · Tableau · Excel
-
-I turn raw data into business insights that drive decisions. Based in Melbourne, Australia — currently completing my Master's in Business Analytics.
-
-My background spans **Aeronautical Engineering**, **Human Resource Management**, and **Business Analytics** — giving me a unique ability to combine technical analysis with business understanding and people-focused thinking.
+[![Python](https://img.shields.io/badge/Python-pandas-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-MySQL-F29111?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 
 ---
 
-## Portfolio Projects
+## 📌 Project Overview
 
-Each project builds on the last — showing my progression from foundational analysis to advanced techniques.
+A clothing company's revenue dropped **89% in less than a year**. This project investigates what went wrong by analysing 2 years of sales data (Jan 2021 – Dec 2022) using the full Data Analyst workflow: **Python → SQL → Power BI**.
 
-### Featured Projects
-
-| # | Project | Tools | Key Skills | Status |
-|---|---------|-------|-----------|--------|
-| 1 | [Melbourne CBD Business Establishments](https://github.com/Ahmed-Al-Rafsan/melbourne-cbd-business-analysis) | Python, Power BI | Data exploration, basic visualisation | ✅ Complete |
-| 2 | [Fashion Retail Intelligence](https://github.com/Ahmed-Al-Rafsan/Fashion-Retail-Intelligence) | Python, SQL, Power BI | Data cleaning, business analysis, dashboard storytelling | ✅ Complete |
-| 3 | Customer Segmentation & RFM Analysis | Python, SQL, Power BI | RFM scoring, cohort analysis, segmentation | 🔄 Coming Soon |
-| 4 | Melbourne Road Safety Analysis | Python, SQL, Power BI | Correlation analysis, statistics, government data | 📋 Planned |
-| 5 | Sales Dashboard | Python, SQL, Tableau | Tableau proficiency, calculated fields | 📋 Planned |
-| 6 | Financial Analysis | Excel, Python | Advanced Excel, Power Query, financial modelling | 📋 Planned |
-
-> 📺 I record **video walkthroughs** for each project — presenting insights the way a Data Analyst would present to stakeholders. [Watch on YouTube →](https://www.youtube.com/watch?v=Y8TWx8vikOE)
+> **Key Finding:** The business lost its top customer (12.7% of total revenue) and 92% of all customers became inactive — revealing a critical customer retention failure.
 
 ---
 
-## 🛠️ Technical Skills
+## 🔍 Business Questions
 
-**Data Analysis & Querying**
-`SQL` · `MySQL Workbench` · `Python` · `pandas` · `Data Cleaning` · `Data Wrangling`
-
-**Visualisation & BI**
-`Power BI` · `DAX` · `Tableau` · `matplotlib` · `seaborn`
-
-**Spreadsheets**
-`Excel` · `Pivot Tables` · `VLOOKUP/XLOOKUP` · `Power Query`
-
-**Other**
-`Git` · `GitHub` · `Data Modelling` · `Business Storytelling`
+1. What is the overall revenue trend — is the business growing or declining?
+2. Who are the most valuable customers and what happened to them?
+3. Which products and sizes drive the most revenue?
+4. Why did revenue collapse after early 2022?
+5. What actionable recommendations can be made?
 
 ---
 
-## 📈 My Approach
+## 📊 Dashboard Preview
+
+### Executive Summary
+![Executive Summary](screenshots/page1_executive_summary.png)
+
+### Sales Trends
+![Sales Trends](screenshots/page2_sales_trends.png)
+
+### Customer Analysis
+![Customer Analysis](screenshots/page3_customer_analysis.png)
+
+### Product Analysis
+![Product Analysis](screenshots/page4_product_analysis.png)
+
+---
+
+## 🎥 Video Walkthrough
+
+I present this project as a **business case** — the way a Data Analyst would present findings to stakeholders.
+
+▶️ [Watch the full walkthrough on YouTube](https://youtu.be/Y8TWx8vikOE)
+
+---
+
+## ⚙️ Tools & Workflow
+
+| Stage | Tool | Purpose |
+|-------|------|---------|
+| 1. Data Cleaning | Python (pandas) | Merged 6 CSV files, handled missing values, fixed data types, created clean dataset |
+| 2. Business Analysis | SQL (MySQL) | Wrote 10 queries to uncover revenue trends, customer behaviour, and product performance |
+| 3. Visualisation | Power BI | Built 4-page interactive dashboard with business storytelling |
+
+---
+
+## 📈 Key Findings
+
+| Metric | Insight |
+|--------|---------|
+| Total Revenue | ~$16.4M over 2 years |
+| Peak Month | Sep 2021 — $1.78M revenue |
+| Revenue Decline | 89% drop from peak to Dec 2022 |
+| Top Customer | Mulberries Boutique — $2.09M (12.7% of total) — went inactive May 2022 |
+| Customer Retention | 137 of 149 customers (92%) became inactive |
+| Best Product | SET268 in Size L |
+| Top Sizes | L, M, and XL account for majority of orders |
+
+---
+
+## 💡 Recommendations
+
+1. **Customer Retention Strategy** — With 92% inactive customers, the company urgently needs to investigate why customers are leaving and implement retention initiatives.
+2. **Reduce Revenue Concentration** — Depending on one customer for 12.7% of revenue is risky. Diversify the customer base.
+3. **Optimise Inventory** — Focus stock on high-demand sizes (L, M, XL) and reduce low-demand sizes (5XL, 6XL, 4XL).
+4. **Product Diversification** — Explore expanding beyond SET268 to reduce product dependency.
+
+---
+
+## 📁 Project Structure
 
 ```
-Raw Data → Clean & Prepare (Python) → Analyse & Query (SQL) → Visualise & Tell the Story (Power BI/Tableau)
+Fashion-Retail-Intelligence/
+│
+├── data/
+│   └── cleaned_sales_data.csv
+│
+├── python/
+│   └── data_cleaning.py
+│
+├── sql/
+│   └── business_queries.sql
+│
+├── powerbi/
+│   └── fashion_retail_intelligence_dashboards.pbix
+│
+├── screenshots/
+│   ├── page1_executive_summary.png
+│   ├── page2_sales_trends.png
+│   ├── page3_customer_analysis.png
+│   └── page4_product_analysis.png
+│
+└── README.md
 ```
-
-I believe data analysis is not just about making charts — it's about finding the **story behind the numbers** and turning it into **actionable business recommendations**.
 
 ---
 
-## 📫 Connect With Me
+## 🧠 What I Learned
 
-[![LinkedIn]https://www.linkedin.com/in/ahmed-al-rafsan-/
-[![YouTube]https://www.youtube.com/@AhmedAlRafsan
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmed.rafsan108@gmail.com)
+- How to **clean and merge multiple datasets** using Python pandas
+- Writing **business-focused SQL queries** (GROUP BY, JOINs, window functions like LAG for month-over-month analysis)
+- Building **interactive Power BI dashboards** with DAX calculations (custom Month Number column for chronological sorting)
+- Designing a **consistent visual theme** (#1A1A2E background, #00D4FF cyan, #FF6B35 orange)
+- Most importantly — how to **tell a business story with data**, not just make charts
 
-📍 Melbourne, Australia
+---
+
+## 📊 Data Source
+
+- **Source:** [Kaggle — Clothing & Apparel Sales Dataset](https://www.kaggle.com/)
+- **Records:** 6 CSV files covering Jan 2021 – Dec 2022
+- **Fields:** Customer, Date, SKU, Style, Size, Quantity (PCS), Rate, Total Revenue
+
+---
+
+## 👤 About Me
+
+**Rafsan** — Data Analyst based in Melbourne, Australia
+- 🎓 Master's in Business Analytics
+- 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-al-rafsan-)
+- 📺 [YouTube](https://youtu.be/Y8TWx8vikOE)
+
+*This is part of my Data Analyst portfolio. Each project demonstrates progressively advanced skills — from data cleaning to business storytelling.*
+
