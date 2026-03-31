@@ -129,7 +129,7 @@ Fashion-Retail-Intelligence/
 **Rafsan** — Data Analyst based in Melbourne, Australia
 - 🎓 Master's in Business Analytics
 - 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-al-rafsan-)
-- 📺 [YouTube](https://www.youtube.com/@RafsanDataAILab)
+- 📺 [YouTube](https://www.youtube.com/@AhmedAlRafsan)
 - 📧 ahmed.rafsan108@gmail.com
 
 *This is part of my Data Analyst portfolio. Each project demonstrates progressively advanced skills — from data cleaning to business storytelling.*
