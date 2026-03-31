@@ -27,16 +27,16 @@ A clothing company's revenue dropped **89% in less than a year**. This project i
 ## 📊 Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](screenshots/page1_executive_summary.png)
+![Executive Summary](Dashboard Screenshots/page1_executive_summary.png)
 
 ### Sales Trends
-![Sales Trends](screenshots/page2_sales_trends.png)
+![Sales Trends](Dashboard Screenshots/page2_sales_trends.png)
 
 ### Customer Analysis
-![Customer Analysis](screenshots/page3_customer_analysis.png)
+![Customer Analysis](Dashboard Screenshots/page3_customer_analysis.png)
 
 ### Product Analysis
-![Product Analysis](screenshots/page4_product_analysis.png)
+![Product Analysis](Dashboard Screenshots/page4_product_analysis.png)
 
 ---
 
@@ -98,7 +98,7 @@ Fashion-Retail-Intelligence/
 ├── powerbi/
 │   └── fashion_retail_intelligence_dashboards.pbix
 │
-├── screenshots/
+├── Dashboard Screenshots/
 │   ├── page1_executive_summary.png
 │   ├── page2_sales_trends.png
 │   ├── page3_customer_analysis.png
