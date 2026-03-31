@@ -27,16 +27,16 @@ A clothing company's revenue dropped **89% in less than a year**. This project i
 ## 📊 Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](Dashboard Screenshots/Executive Summary.png)
+![Executive Summary](Dashboard%20Screenshots/Executive%20Summary.png)
 
 ### Sales Trends
-![Sales Trends](Dashboard Screenshots/Sales Trends.png)
+![Sales Trends](Dashboard%20Screenshots/Sales%20Trends.png)
 
 ### Customer Analysis
-![Customer Analysis](Dashboard Screenshots/Customer Analysis.png)
+![Customer Analysis](Dashboard%20Screenshots/Customer%20Analysis.png)
 
 ### Product Analysis
-![Product Analysis](Dashboard Screenshots/Product Analysis.png)
+![Product Analysis](Dashboard%20Screenshots/Product%20Analysis.png)
 
 ---
 
@@ -86,8 +86,11 @@ I present this project as a **business case** — the way a Data Analyst would p
 ```
 Fashion-Retail-Intelligence/
 │
-├── data/
-│   └── cleaned_sales_data.csv
+├── Dashboard Screenshots/
+│   ├── Executive Summary.png
+│   ├── Sales Trends.png
+│   ├── Customer Analysis.png
+│   └── Product Analysis.png
 │
 ├── python/
 │   └── data_cleaning.py
@@ -97,12 +100,6 @@ Fashion-Retail-Intelligence/
 │
 ├── powerbi/
 │   └── fashion_retail_intelligence_dashboards.pbix
-│
-├── Dashboard Screenshots/
-│   ├── Executive Summary.png
-│   ├── Sales Trends.png
-│   ├── Customer Analysis.png
-│   └── Product Analysis.png
 │
 └── README.md
 ```
@@ -132,7 +129,7 @@ Fashion-Retail-Intelligence/
 **Rafsan** — Data Analyst based in Melbourne, Australia
 - 🎓 Master's in Business Analytics
 - 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-al-rafsan-)
-- 📺 [YouTube](https://youtu.be/Y8TWx8vikOE)
+- 📺 [YouTube](https://www.youtube.com/@RafsanDataAILab)
+- 📧 ahmed.rafsan108@gmail.com
 
 *This is part of my Data Analyst portfolio. Each project demonstrates progressively advanced skills — from data cleaning to business storytelling.*
-
